@@ -92,7 +92,13 @@ alt当图像无法加载是显示的文字
 
 width,height图像的高度和宽度
 
+设置图像链接,也可以按区块设置图像链接
+
 ## 表格
+
+`带有标题的表头<caption>`
+
+`colgroup>列属性`
 
 `<table></table>`
 
@@ -114,7 +120,7 @@ width,height图像的高度和宽度
 
 区块元素组合在一起使用，如：<h1>,<p>,<ul>,<table>
 
-`<span></span>`
+`<span></span>`内联元素如css
 
 内联元素组合在一起使用，如：<b>,<td>,<a>,<img>
 
@@ -123,6 +129,12 @@ width,height图像的高度和宽度
 <div>布局
 
 <table>布局
+
+区块布局感悟:默认应该是竖排,
+
+如果设置了float属性,光标位置不变,但如果下次排列横排范围超过了父级区块范围,就往下排
+
+注意:clear属性好像可以移动光标的位置`clear:both`例子这样就可以使光标下移
 
 ## 表单
 
@@ -140,6 +152,8 @@ width,height图像的高度和宽度
 
 <form> <input type="radio" name="sex" value="male">Male<br> <input type="radio" name="sex" value="female">Female </form>
 
+只有name一样才能单选
+
 复选框
 
 <form> <input type="checkbox" name="vehicle" value="Bike">I have a bike<br> <input type="checkbox" name="vehicle" value="Car">I have a car  </form>
@@ -147,3 +161,26 @@ width,height图像的高度和宽度
 提交按钮
 
 <form name="input" action="html_form_action.php" method="get"> Username: <input type="text" name="user"> <input type="submit" value="Submit"> </form>
+
+input类型
+
+range
+
+search
+
+tel
+
+time
+
+url
+
+week
+
+
+
+## h5
+
+* 可以支持写数学公式
+* 支持拖拽(用js)
+* 可以进行定位(时间较长)
+* h5有自己的控件支持

@@ -56,7 +56,7 @@ css中插入样式表有三种方法：
 
 颜色：color
 
-对齐方式：text-align
+对齐方式：text-align(center,right,justify)
 
 文本修饰：text-decoration
 
@@ -95,11 +95,13 @@ a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
 
 ## css列表
 
-list-style-type
+list-style-type(什么样子的标记可以标记列表)
 
 标记图像
 
 list-style-image
+
+## 表格制作
 
 ## 盒子模型
 
@@ -108,3 +110,67 @@ list-style-image
 ![CSS box-model](http://www.runoob.com/images/box-model.gif)
 
 border边框设置（可查）
+
+div{
+
+width:(用百分号表示占屏幕的多少)
+
+height:
+
+padding:
+
+border:
+
+margin:
+
+}定义一块区块
+
+## 定位
+
+position:.......
+
+static:静态定位
+
+fixed:相对浏览器固定的位置
+
+relative:相对于其他正常位置
+
+abusolute:相对于最近的父级元素
+
+sticky:基于用户滚动位置
+
+图像的元素可以重叠(z-index:(表示重叠元素))
+
+## 对齐
+
+元素居中对齐:`margin:auto;`
+
+文本居中对齐:`text-align:center;`
+
+图片居中对齐:`margin:auto;`
+
+左右对齐:float
+
+垂直居中对齐:使用padding
+
+垂直居中:line-height
+
+可以使用margin-left(right):(auto)让div居中
+
+div右对齐:`position:absolute;`
+
+​		 `right:0px;`
+
+## 伪类,伪元素
+
+`:`双引号标注
+
+例:超链接伪类
+
+link,visit,hover,active
+
+第一个子类,first-child
+
+## 透明度
+
+opacity属性,值(0--1)

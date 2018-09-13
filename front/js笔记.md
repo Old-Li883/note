@@ -2,6 +2,14 @@
 
 变量要用var声明
 
+## 数据类型
+
+动态
+
+字符串,数字,布尔,数组,对象(字典)
+
+定义变量时可以用`new`来对此进行声明,例:`var x = new Number`
+
 ## 字符串
 
 多行字符串除了用\n还可以用反引号``
@@ -49,6 +57,8 @@
 .join //把.....加入......
 
 ## 对象
+
+(类似于Python里的字典)
 
 无序的集合数据类型，有若干个键值对组成
 
@@ -314,3 +324,38 @@ var parent=document.getElementById('parent');parent.removeChild(parent.children[
 
 在submit控件里加入onclick="js函数名"
 
+## 输出
+
+window.alert()
+
+document.write()
+
+innerHTML
+
+console.log()
+
+## HTML事件
+
+就是网页发生什么变化要执行什么操作
+
+常见时间
+
+onchange
+
+onclick
+
+onmouseover
+
+onmouseout
+
+onkeydown
+
+onload
+
+## 错误
+
+try
+
+catch
+
+throw
