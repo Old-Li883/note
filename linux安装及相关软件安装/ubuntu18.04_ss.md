@@ -25,3 +25,8 @@ E: 仓库 “http://ppa.launchpad.net/hzwhuang/ss-qt5/ubuntu bionic Release”
 解决方法
 
 在你的/etc/apt/sources.list.d目录下，看 这个文件(hzwhuang-ubuntu-ss-qt5-bionic.list )将里面的bionic 改成xenial ,保存再运行 sudo apt-get update ,最后再运行一次 sudo apt-get install shadowsocks-qt5 就好了。
+
+代理设置
+设置proxy的代理协议为SOCKS5，代理服务器为127.0.0.1，端口为1080。这样应该就可以使用这个代理进行上网了
+
+进一步还可以使用自动模式，规则列表设置选择AutoProxy 然后将【https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt】填进去，点击下面的立即更新情景模式，会有提示更新成功！
