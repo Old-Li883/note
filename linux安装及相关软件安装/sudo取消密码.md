@@ -1,7 +1,9 @@
 sudo取消密码
 
-在root ALL...下面
+sudo gedit /etc/sudoers
 
-`用户名 ALL=(ALL) NOPASSWD: ALL`
+！！！找到
+%admin ALL=(ALL) ALL
+注释之， 在下面加上
 
-`%admin ALL=(ALL) NOPASSWD: ALL`
+%admin ALL=(ALL) NOPASSWD: ALL
